@@ -19,7 +19,7 @@ func Connect() {
 
     dbHost := os.Getenv("DB_HOST")
     dbUser := os.Getenv("DB_USER")
-    dbPassword := os.Getenv("DB_PASSWORD")
+    dbPassword := os.Getenv("DB_PASS")
     dbName := os.Getenv("DB_NAME")
     dbPort := os.Getenv("DB_PORT")
 
