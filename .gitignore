@@ -1,0 +1,54 @@
+# --- Go Build Artifacts ---
+bin/
+build/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# --- Go Modules & Dependencies ---
+# Dependency directories (rare, but possible)
+vendor/
+go.work
+go.work.sum
+
+# --- Environment & Config ---
+.env
+.env.*
+*.local
+config.yaml
+config.yml
+
+# --- Logs & Runtime Data ---
+*.log
+*.pid
+*.seed
+*.bak
+*.tmp
+*.swp
+
+# --- IDE & Editor Files ---
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# --- OS-Specific Files ---
+.DS_Store
+Thumbs.db
+
+# --- Coverage & Testing ---
+coverage.out
+coverage.txt
+test-results/
+*.coverprofile
+
+# --- Misc ---
+# Avoid committing temporary files or hidden cache folders
+*.cache/
+*.lock
